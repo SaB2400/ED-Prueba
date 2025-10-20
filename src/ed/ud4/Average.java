@@ -14,7 +14,8 @@ public class Average {
             System.out.print(num + " ");
             sum += num;
         }
-
+        double media = (double) sum / (double) count;
         System.out.println("\nSuma total:" + sum);
-    }l
+        System.out.println("Media:" + media);
+    }
 }
