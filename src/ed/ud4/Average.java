@@ -16,5 +16,5 @@ public class Average {
         }
 
         System.out.println("\nSuma total:" + sum);
-    }
+    }l
 }
