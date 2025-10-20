@@ -10,7 +10,7 @@ public class Average {
         int sum = 0;
         System.out.print("Numeros generados:");
         for (int i = 0; i < count; i++) {
-            int num = random.nextInt(50) + 1;
+            int num = random.nextInt(100) + 1;
             System.out.print(num + " ");
             sum += num;
         }
