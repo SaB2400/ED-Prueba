@@ -12,7 +12,8 @@ public class jhh {
             return;
         }
         double producto = 1.0;
-
+        int min = 100;
+        int max = 0;
         for (int i = 1; i <= n; i++) {
             System.out.print("Ingrese el número " + i + ": ");
             double numero = scanner.nextDouble();
@@ -21,7 +22,12 @@ public class jhh {
                 System.out.println("Los números deben ser positivos");
                 return;
             }
-
+            if (numero < min) {
+                min = numero;
+            }
+            if (numero > max) {
+                max = numero;
+            }
             producto *= numero;
         }
 
