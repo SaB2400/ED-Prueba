@@ -6,7 +6,7 @@ public class jhh {
 
         System.out.print("Ingrese la cantidad de números: ");
         int n = scanner.nextInt();
-
+        System.out.print("Statistics");
         if (n <= 0) {
             System.out.println("La cantidad de números debe ser mayor que 0");
             return;
