@@ -37,5 +37,6 @@ public class jhh {
         System.out.printf("La media geométrica es: %.4f%n", mediaGeometrica);
 
         scanner.close();
+        System.out.print("End of program");
     }
 }
